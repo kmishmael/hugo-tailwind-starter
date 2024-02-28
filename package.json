@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "concurrently --kill-others \"npm run watch:tw\" \"hugo server --ignoreCache\"",
     "build": "npm run build:tw & hugo --minify",
-    "build:tw": "npx tailwindcss -i ./assets/css/styles.css -o ./static/styles.css --minify",
-    "watch:tw": "npx tailwindcss -i ./assets/css/styles.css -o ./static/styles.css --watch"
+    "build:tw": "npx tailwindcss -i ./assets/css/style.css -o ./static/style.css --minify",
+    "watch:tw": "npx tailwindcss -i ./assets/css/style.css -o ./static/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,6 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.17",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^3.1.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-postcss": "^9.0.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
   }
