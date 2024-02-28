@@ -15,7 +15,7 @@ To run the project in dev mode, we use `concurrently` to run both `Hugo server` 
 Subsequently, ensure that concurrently is installed. You can do so by running:
 
 ```bash
-npm install -g concurrently
+npm install --save-dev concurrently
 ```
 
 In development mode:
@@ -88,7 +88,7 @@ Also, create a css file, say in `assets/css/style.css`, and add the tailwind hea
 Finally, add the commands to run tailwind and hugo concurrently. Therefore install concurrenlty:
 
 ```bash
-npm install concurrently
+npm install --save-dev concurrently
 ```
 
 and now you can add script commands in `package.json`.

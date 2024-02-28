@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ block "title" . }}{{ .Site.Title }} {{ end }}</title>
-    <meta name="description" content="{{ .Description }}" />
 
     {{ $options := dict "config" "assets/css/postcss.config.js" }}
     <link href="style.css" rel="stylesheet" />
   </head>
   <body class="">
-    {{ block "main" . }} {{ end }} {{ partial "footer.html" . }}
+    {{ block "main" . }} {{ end }}
   </body>
 </html>

@@ -1,3 +1,3 @@
 +++
-title: Hugo + Tailwind starter
+title = "Hugo + Tailwind starter"
 +++
